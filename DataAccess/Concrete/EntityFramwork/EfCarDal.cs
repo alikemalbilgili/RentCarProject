@@ -14,6 +14,7 @@ namespace DataAccess.Concrete.EntityFramwork
     {
         public List<CarDetailDTos> GetCarDetails()
         {
+           
             using (RentCarDbContext context = new RentCarDbContext())
             {
                 var result = from c in context.Cars

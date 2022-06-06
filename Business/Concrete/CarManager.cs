@@ -26,7 +26,7 @@ namespace Business.Concrete
 
         public List<CarDetailDTos> GetCarDetails()
         {
-            return GetCarDetails();
+            return _carDal.GetCarDetails();
         }
 
         public List<Car> GetCarsByBrandId(int brandId)
