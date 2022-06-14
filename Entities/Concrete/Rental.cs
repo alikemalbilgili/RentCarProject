@@ -11,11 +11,11 @@ namespace Entities.Concrete
     public class Rental : IEntity
     {
         public int RentalId { get; set; }
-        [Required]
+       
         public int CarId { get; set; }
-        [Required]
+       
         public int CustomerId { get; set; }
-        [Required]
+        
         public DateTime RentDate { get; set; }
         public DateTime ReturnDate { get; set; }
 
