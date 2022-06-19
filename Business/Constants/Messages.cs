@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Core.Entities.Concrete;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -33,7 +35,14 @@ namespace Business.Constants
         public static string CustomerDeleted;
         public static string CustomersLİsted;
         public static string CustomerUpdated;
-        internal static string ReturnRentalError;
+        public static string ReturnRentalError;
+        public static string UserNotFound;
+        public static string PasswordError;
+        public static string SuccessfulLogin;
+        public static string UserAlreadyExists;
+        public static string AccessTokenCreated;
+        public static string AuthorizationDenied;
+        public static string UserRegistered;
     }
 }
     

@@ -22,6 +22,7 @@ namespace Business.Concrete
             this._colorDal = colorDal;
         }
         [ValidationAspect(typeof(ColorValidator))]
+
         public IResult Add(Color color)
         {
             _colorDal.Add(color);
